@@ -17,6 +17,7 @@ function App() {
     <div className="App">
 
       <Navbar/>
+      <br/>
       <h3>Flex Display</h3>
       <FlexDisplay/>
       <h3>Flex Direction</h3>
@@ -33,8 +34,8 @@ function App() {
       <FlexAlignContent/>
       <h3>Flex Item</h3>
       <FlexItem/>
-
-      <h3>3 use case</h3>
+      <br/>
+      <h1>3 use case</h1>
       <CenteringItem/>
       <VariableHeights />
       <HolyGrailLayout/>

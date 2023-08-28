@@ -1,7 +1,11 @@
 nav{
     font-size: 2rem;
-    background-color: #f1f1f1;
+    /* background-color: #555; */
+    background-color: #1A5D1A;
     position:sticky;
+    width: 100%;
+    margin: 0px;
+    color: white;
 }
 
 nav ul{
@@ -20,7 +24,15 @@ nav ul li{
 }
 
 nav ul li:hover{
-    background-color: #555;
+    background-color: white;
+    color: #1A5D1A;
+}
+
+.scrolled{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #1A5D1A;
     color: white;
 }
 

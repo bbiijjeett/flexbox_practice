@@ -5,11 +5,12 @@ import FlexGrow from './FlexItem/FlexGrow';
 import FlexBasis from './FlexItem/FlexBasis';
 import Flex from './FlexItem/Flex';
 import AlignSelf from './FlexItem/AlignSelf';
+import './FlexItem.css';
 
 
 const FlexItem = () => {
   return (
-    <div>
+    <div className='container_flexitem'>
       <h2>Order</h2>
       <Order />
       <h2>FlexShrink</h2>

@@ -1,13 +1,25 @@
 .container5 {
-    border: 6px solid black;
+    /* border: 6px solid black; */
     display: flex;
-    height: 800px;
+    height: 300px;
     /* align-items: stretch; */
     /* align-items: flex-start; */
     /* align-items: flex-end; */
     /* align-items: center; */
     align-items: baseline;
+    background: white;
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+    transition: all .4s ease;
+    padding:25px;
+    margin-bottom: 30px;
 }
+
+.container5:hover{
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+}
+
+
 .flex-item5 {
     color: white;
     font-size: 1.5rem;
