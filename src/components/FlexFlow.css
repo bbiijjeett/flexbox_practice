@@ -1,0 +1,43 @@
+.container3 {
+    border: 6px solid black;
+    display: flex;
+    height: 400px;
+    flex-flow: column wrap;
+}
+.flex-item3 {
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+.item-1_3 {
+    background-color: #B4BF35;
+}
+.item-2_3 {
+    background-color: #B95F21;
+    /* flex-grow: 2;
+    flex-shrink: 5;
+    flex-basis: 200px; */
+    /* flex: 1 5 200px; */
+}
+.item-3_3 {
+    background-color: #1C4C56;
+}
+.item-4_3 {
+    background-color: #CfB276;
+}
+.item-5_3 {
+    background-color: #6B0803;
+}
+.item-6_3 {
+    background-color: #1C4C56;
+}
+.item-7_3 {
+    background-color: #B95F21;
+}
+.item-8_3 {
+    background-color: #01243A;
+}
+.item-9_3 {
+    background-color: #AAD041;
+}

@@ -1,0 +1,38 @@
+.container-flex {
+    border: 6px solid black;
+    display: flex;
+}
+.flex-item-flex {
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+.item-1-flex {
+    background-color: #B4BF35;
+}
+.item-2-flex {
+    background-color: #B95F21;
+    flex: 1 5 200px;
+}
+.item-3-flex {
+    background-color: #1C4C56;
+}
+.item-4-flex {
+    background-color: #CfB276;
+}
+.item-5-flex {
+    background-color: #6B0803;
+}
+.item-6-flex {
+    background-color: #1C4C56;
+}
+.item-7-flex {
+    background-color: #B95F21;
+}
+.item-8-flex {
+    background-color: #01243A;
+}
+.item-9-flex {
+    background-color: #AAD041;
+}

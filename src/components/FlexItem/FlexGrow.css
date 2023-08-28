@@ -1,0 +1,43 @@
+.container-FlexGrow {
+    border: 6px solid black;
+    display: flex;
+}
+.flex-item-FlexGrow {
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    flex-grow: 1;
+}
+.item-1-FlexGrow {
+    background-color: #B4BF35;
+}
+.item-2-FlexGrow {
+    background-color: #B95F21;
+}
+.item-3-FlexGrow {
+    background-color: #1C4C56;
+    order: 1;
+}
+.item-4-FlexGrow {
+    background-color: #CfB276;
+}
+.item-5-FlexGrow {
+    background-color: #6B0803;
+    /* flex-grow: 1; */
+}
+.item-6-FlexGrow {
+    background-color: #1C4C56;
+    /* flex-grow: 3; */
+}
+.item-7-FlexGrow {
+    background-color: #B95F21;
+    order: 2;
+}
+.item-8-FlexGrow {
+    background-color: #01243A;
+}
+.item-9-FlexGrow {
+    background-color: #AAD041;
+    order: 1;
+}
